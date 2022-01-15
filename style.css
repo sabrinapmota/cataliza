@@ -17,3 +17,13 @@ main >section img {
     height:300px ;
 Margin: 15px 0;
 width: 200px;}
+main > section button {background-color: darkred;
+border-radius:30px;
+color: silver;
+font-family: 'Times New Roman', Times, serif;
+font-cise: 16 px;
+font-weight: 200;
+letter-spacing:- 0.2px;
+line-height: 20px;
+text-transform: uppercase;
+padding: 20px;
