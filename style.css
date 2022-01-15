@@ -6,3 +6,8 @@ body {background-image: -o-linear-gradient(150deg, #F08080 15%,
   min-height: 100vh;
   width: 100%;}
 
+
+  main {align-itens: center;
+display: flex;
+height: 100vh;
+justify-cotent: center;}
