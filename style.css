@@ -10,4 +10,10 @@ body {background-image: -o-linear-gradient(150deg, #F08080 15%,
   main {align-itens: center;
 display: flex;
 height: 100vh;
-justify-cotent: center;}
+justify-content: center;}
+
+
+main >section img {
+    height:300px ;
+Margin: 15px 0;
+width: 200px;}
