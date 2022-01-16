@@ -1,2 +1,2 @@
-#ProjetoCataliza2022
-Criar página onde serão exibidos 3 (três) personagens aleatórios do Rick and Morty.
+# Minicurso
+Minicurso do Catalisa 2022 - Como consumir a API do Rick And Morty

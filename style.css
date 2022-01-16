@@ -1,31 +1,57 @@
-body {background-image: -o-linear-gradient(150deg, #F08080 15%,
-   #F0FFF0 30%,
-   #F0FFF0 50%,
-  #C0C0C0 40);
-  margin: 0.6;
-  min-height: 100vh;
-  width: 100%;}
+body {
+    background-image: linear-gradient(
+        180deg,
+        #6495ED 5%,
+        #00FFFF 20%,
+        #008B8B 60%,
+        #00CED1 95%
+    );
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+}
+
+main > section img {
+    height: 300px;
+    margin: 15px 0;
+    width: 300px;
+}
+
+main > section button {
+    background-color: #00BFFF;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-family: EuclidBold;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: -0.6px;
+    line-height: 15px;
+    padding: 9px 23px;
+    text-transform: uppercase;
+}
+
+.detalhes-container {
+    font-weight: bold;
+    list-style-type: none;
+    width: 90%;
+}
+
+.detalhes-container > li {
+    align-items: baseline;
+    display: flex;
+}
 
 
-  main {align-itens: center;
-display: flex;
-height: 100vh;
-justify-content: center;}
+.detalhes-container > li p {
+    color: white;
 
-
-main >section img {
-    height:300px ;
-Margin: 15px 0;
-width: 200px;}
-main > section button {background-color: darkred;
-border-radius:30px;
-color: silver;
-font-family: 'Times New Roman', Times, serif;
-font-cise: 16 px;
-font-weight: 200;
-letter-spacing:- 0.2px;
-line-height: 20px;
-text-transform: uppercase;
-padding: 20px;
-#detalhes-container{font-weight: bought;
-  list-style-type::placeholder;
+}
